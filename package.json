@@ -1,0 +1,39 @@
+{
+    "name": "user-client-service",
+    "version": "1.0.0",
+    "description": "NodeJS API for Users and Clients Management + MongoDB + Kong for Authentication and Authoriztion",
+    "contributors": [
+        {
+            "name": "Fahmi Hidayatullah",
+            "email": "hidayatullah_fahmi@yahoo.co.id"
+        }
+    ],
+    "license": "MIT",
+    "main": "server.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fahmihidayatullah/user-client-service"
+    },
+    "scripts": {
+        "start": "node ./server.js",
+        "start-dev": "nodemon ./server.js"
+    },
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.4",
+        "dotenv": "^6.0.0",
+        "express": "^4.17.1",
+        "mongodb": "^3.2.7",
+        "mongoose": "^5.7.5",
+        "nodemailer": "^6.4.2",
+        "request": "^2.88.0",
+        "request-promise": "^4.2.5",
+        "rootpath": "^0.1.2",
+        "sanitize-html": "^1.20.0",
+        "striptags": "^3.1.1"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.1"
+    }
+}
